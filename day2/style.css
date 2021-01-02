@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+} 
+
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 40px;
+    max-width: 100%;
+    width: 350px;
+
+
+}
+
+.progress {
+    background-color:black;
+    position:absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.progress-container::before {
+    content: '';
+    background-color: azure;
+    position:absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: -1;
+
+}
+
+.circle {
+    background-color: white;
+    color: thistle;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid thistle;
+    transition: 0.4s ease-in-out;
+
+}
+
+.circle.active {
+    border-color: #348;
+
+    
+
+}
+
+.btn {
+    background-color : burlywood;
+    color:gray;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+    
+}
+
+.btn:active {
+    transform: scale(0.98);
+
+
+}
+
+
+.btn:focus {
+    outline: 0;
+}
+
+
+.btn:disabled {
+    background-color: cornsilk;
+}
