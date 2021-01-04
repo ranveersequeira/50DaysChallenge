@@ -1,4 +1,4 @@
 # 50DaysChallenge
 
 
-[Expanding Cards] (https://dedsequeira.github.io/day1/)
+[Expanding Cards] (https://brucebannerme.github.io/day1/)
