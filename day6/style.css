@@ -19,6 +19,7 @@ h1 {
 }
 
 .box {
+    background-image: url("./img.jpg");
     background-color: rgb(160, 143, 224);
     color: whitesmoke;
     display: flex;
