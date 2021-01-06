@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(163, 195, 241);
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.box {
+    background-color: rgb(160, 143, 224);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    font-size: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px burlywood;
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+
+}
+
+.box:nth-of-type(even){
+    transform: translateX(-400%);
+}
+
+.box.show {
+    transform:translateX(0);
+}
+
+
