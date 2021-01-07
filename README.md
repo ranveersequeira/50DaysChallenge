@@ -9,3 +9,4 @@ Project  | Live Demo
 [Hidden Search Widget](https://github.com/ranveersequeira/50DaysChallenge/tree/master/day4)  | [Live Demo](https://brucebannerme.github.io/day4/)
 [Blurry Loading](https://github.com/ranveersequeira/50DaysChallenge/tree/master/day5)  | [Live Demo](https://brucebannerme.github.io/day5/)
 [Scroll Animation](https://github.com/ranveersequeira/50DaysChallenge/tree/master/day6)  | [Live Demo](https://brucebannerme.github.io/day6/)
+[Split Two](https://github.com/ranveersequeira/50DaysChallenge/tree/master/day7)  | [Live Demo](https://brucebannerme.github.io/day7/)
